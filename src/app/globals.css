@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  @apply font-poppins;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gd-title {
+  background: linear-gradient(180deg, #c3c0d8 0%, #9b90df 50.13%, #7361e5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-border {
+  border: 1px solid rgb(154, 141, 236);
+}
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.animate-slides {
+  animation: slides 30s infinite linear;
+}
+.hero-brand {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 25%,
+    rgb(0, 0, 0) 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.hero-brand:hover .animate-slides {
+  animation-play-state: paused;
+}
+
+.corporate-values {
+  mask-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 15%,
+    #000000 50%,
+    rgba(0, 0, 0, 0) 85%
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 15%,
+    #000000 50%,
+    rgba(0, 0, 0, 0) 85%
+  );
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+.item-scroll-left {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+.item-scroll-right {
+  animation: scroll-right 20s linear infinite;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-brand .inline-flex.logo_items.animate-slides:first-child {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+}
+
+@media (max-width: 767px) {
+  #nav-container {
+    position: relative;
+  }
+}
+/* percentage bar */
+.percentage-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: #9a8dec;
+  width: 0;
+  transition: width 0.2s ease;
+  z-index: 999;
+}
+
+/* glowing btn */
+.glowing-button-gradient {
+  animation: spin 4s linear infinite;
+  background: conic-gradient(rgb(115, 97, 229) 0deg, rgb(154, 141, 236) 60deg);
+  z-index: 1;
+  height: 500%;
+  width: 120%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -10%;
+  right: 0;
+}
+
+.glowing-button-inner {
+  z-index: 3;
+}
+
+.glowing-button {
+  z-index: 4;
+}
+
+.glowing-button-inner-overlay {
+  z-index: 1;
+  width: 99%;
+  height: 99%;
+  position: absolute;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
