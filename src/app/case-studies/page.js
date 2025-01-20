@@ -1,18 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
-import FooterTop from "../components/FooterTop";
-import Footer from "../components/Footer";
 import DiscoverCard from "../components/DiscoverCard";
 import CustomCard from "../components/CustomCard";
 import customCardData from "/src/data/customCardData.json";
 import discoverCardData from "/src/data/discoverCardData.json";
 
-import Percentage from "../components/Percentage"; // Ensure this import is correct
 export default function page() {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage />
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-secondary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -28,8 +22,8 @@ export default function page() {
           >
             Explore our customer case studies to delve into the practical
             applications
-            <span className="inline-block lg:block"></span>of closingbrackets and its
-            transformative impact on various industries.
+            <span className="inline-block lg:block"></span>of closingbrackets
+            and its transformative impact on various industries.
           </p>
         </div>
       </div>
@@ -40,7 +34,8 @@ export default function page() {
             className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
           >
             Discover Business Grow
-            <span className="inline-block lg:block"></span>Faster with closingbrackets
+            <span className="inline-block lg:block"></span>Faster with
+            closingbrackets
           </h2>
           <div
             data-aos="fade-up"
@@ -74,9 +69,6 @@ export default function page() {
           </div>
         </div>
       </div>
-
-      <FooterTop />
-      <Footer />
     </div>
   );
 }

@@ -1,6 +1,9 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import FooterTop from "./components/FooterTop";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -40,7 +43,12 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
-      <body className={poppins.className}>{children}</body>
+      <body className={`${poppins.className} bg-b-900`}>
+        <Header />
+        {children}
+        <FooterTop />
+        <Footer />
+      </body>
     </html>
   );
 }

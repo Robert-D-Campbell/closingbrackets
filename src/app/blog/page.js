@@ -1,16 +1,11 @@
 import React from "react";
-import Header from "../components/Header";
 import Cta from "../components/Cta";
-import Footer from "../components/Footer";
 import UpdateCard from "../components/UpdateCard";
 import updateCardData from "/src/data/updateCardData.json";
-import Percentage from "../components/Percentage";
 
 export default function page() {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage/>
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -26,8 +21,8 @@ export default function page() {
           >
             closingbrackets blog for the latest news, tips, tricks, and how-to
             articles
-            <span className="inline-block lg:block"></span>on closingbrackets&apos;s
-            advanced synthetic monitoring platform.
+            <span className="inline-block lg:block"></span>on
+            closingbrackets&apos;s advanced synthetic monitoring platform.
           </p>
         </div>
       </div>
@@ -123,8 +118,6 @@ export default function page() {
         </div>
       </div>
       <Cta />
-
-      <Footer />
     </div>
   );
 }

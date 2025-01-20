@@ -1,16 +1,11 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import Header from '../components/Header';
-import Cta from '../components/Cta';
-import Footer from '../components/Footer';
-import Percentage from '../components/Percentage'; // Ensure this import is correct
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Cta from "../components/Cta";
 
 export default function page() {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage />
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-secondary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -38,12 +33,13 @@ export default function page() {
                 data-aos="fade-up"
                 className="text-2xl font-medium text-w-500"
               >
-                Unleash Operational Excellence for the AI Era with closingbrackets
+                Unleash Operational Excellence for the AI Era with
+                closingbrackets
               </h3>
               <p data-aos="fade-up" className="mt-4 mb-6 text-base text-w-100">
-                At closingbrackets, we’re dedicated to revolutionizing the way you
-                interact with artificial intelligence. We believe AI should be
-                intuitive, seamless, and user-friendly. That’s why we&#39;ve
+                At closingbrackets, we’re dedicated to revolutionizing the way
+                you interact with artificial intelligence. We believe AI should
+                be intuitive, seamless, and user-friendly. That’s why we&#39;ve
                 developed cutting-edge solutions to bridge the gap between users
                 and the AI world.
               </p>
@@ -82,18 +78,18 @@ export default function page() {
                 data-aos="fade-up"
                 className="text-2xl font-medium text-w-500"
               >
-                How does closingbrackets simplify the interaction between users and
-                conversational AI?
+                How does closingbrackets simplify the interaction between users
+                and conversational AI?
               </h3>
               <p data-aos="fade-up" className="mt-4 mb-6 text-w-100">
-                closingbrackets Prompts are to Conversational AI what Icons and a
-                Mouse are to Computers. Just as icons and a mouse provide a
+                closingbrackets Prompts are to Conversational AI what Icons and
+                a Mouse are to Computers. Just as icons and a mouse provide a
                 user-friendly interface for interacting with computers,
                 closingbrackets Prompts serve as a user- friendly interface for
                 conversational AI. Icons and a mouse simplify complex computer
                 operations, making them accessible to a wide range of users.
-                Similarly, closingbrackets Prompts simplify AI interactions, making it
-                easy for users to communicate with AI systems.
+                Similarly, closingbrackets Prompts simplify AI interactions,
+                making it easy for users to communicate with AI systems.
               </p>
               <Image
                 data-aos="fade-up"
@@ -448,7 +444,6 @@ export default function page() {
         </div>
       </div>
       <Cta />
-      <Footer />
     </div>
   );
 }

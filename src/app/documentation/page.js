@@ -1,16 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
 import Image from "next/image";
-import Footer from "../components/Footer";
-import EnhancingCard from "../components/EnhancingCard";
-import CustomCard from "../components/CustomCard";
-import FAQAccordion from "../components/FAQSection";
-import Percentage from "../components/Percentage";
+
 export default function page() {
   return (
     <div className="font-normal bg-b-900">
-      <Percentage/>
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -169,8 +162,8 @@ export default function page() {
                 How it Works
               </h3>
               <p data-aos="fade-up" className="pb-12 text-base text-w-100">
-                At closingbrackets, we leverage advanced artificial intelligence and
-                machine learning algorithms to deliver personalized
+                At closingbrackets, we leverage advanced artificial intelligence
+                and machine learning algorithms to deliver personalized
                 recommendations and search results across various industries.
                 Our technology works by analyzing vast amounts of data,
                 including user interactions, reviews, and product descriptions.
@@ -235,10 +228,10 @@ export default function page() {
               </h3>
               <p className="pb-12 text-base text-w-100">
                 The essence of our engineering process lies in keeping things
-                simple for you. closingbrackets&apos;s prompt engineering process
-                utilizes advanced automation to reduce the time and resources
-                needed to build a powerful and effective recommendation engine
-                tailored to your business needs.
+                simple for you. closingbrackets&apos;s prompt engineering
+                process utilizes advanced automation to reduce the time and
+                resources needed to build a powerful and effective
+                recommendation engine tailored to your business needs.
               </p>
               <h3
                 data-aos="fade-up"
@@ -279,8 +272,8 @@ export default function page() {
                   Model Training:{" "}
                   <span className="inline-block md:block"></span>
                   We will initiate the basic training and customization of the
-                  closingbrackets ML model. During this stage, we will conduct A/B
-                  tests of various algorithms and filtering techniques to
+                  closingbrackets ML model. During this stage, we will conduct
+                  A/B tests of various algorithms and filtering techniques to
                   identify the most suitable ones for your business objectives.
                   Once we have determined the optimal methods, we will calculate
                   and refine the semantics to be used as new search and
@@ -291,8 +284,8 @@ export default function page() {
                 <li className="pb-6 text-base text-w-100">
                   Transfer Results:{" "}
                   <span className="inline-block md:block"></span>
-                  Once the closingbrackets model is deployed, we will transmit the
-                  results using an API.
+                  Once the closingbrackets model is deployed, we will transmit
+                  the results using an API.
                 </li>
                 <li className="pb-6 text-base text-w-100">
                   Check Results: <span className="inline-block md:block"></span>
@@ -339,8 +332,6 @@ export default function page() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

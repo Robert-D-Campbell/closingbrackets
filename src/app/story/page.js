@@ -1,18 +1,11 @@
 import React from "react";
 import Image from "next/image";
-
-import Header from "../components/Header";
-import FooterTop from "../components/FooterTop";
-import Footer from "../components/Footer";
 import EnhancingCard from "../components/EnhancingCard";
 import enhancingCardData from "/src/data/enhancingCardData.json";
-import Percentage from "../components/Percentage";
 
 export default function page() {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage/>
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -400,8 +393,6 @@ export default function page() {
           </div>
         </div>
       </div>
-      <FooterTop />
-      <Footer />
     </div>
   );
 }

@@ -1,20 +1,15 @@
-'use client';
-import React from 'react';
-import Image from 'next/image';
-import Header from '../components/Header';
-import FooterTop from '../components/FooterTop';
-import Footer from '../components/Footer';
-import EnhancingCard from '../components/EnhancingCard';
-import CustomCard from '../components/CustomCard';
-import FAQAccordion from '../components/FAQSection';
-import enhancingCardData from '/src/data/enhancingCardData.json';
-import customCardData from '/src/data/customCardData.json';
-import Percentage from '../components/Percentage';
+"use client";
+import React from "react";
+import Image from "next/image";
+import EnhancingCard from "../components/EnhancingCard";
+import CustomCard from "../components/CustomCard";
+import FAQAccordion from "../components/FAQSection";
+import enhancingCardData from "/src/data/enhancingCardData.json";
+import customCardData from "/src/data/customCardData.json";
+
 export default function page() {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage />
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-secondary-hero  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -28,9 +23,9 @@ export default function page() {
             data-aos="fade-up"
             className="mt-6 text-base text-center md:text-xl text-w-100"
           >
-            closingbrackets enables context-based search and recommendations without
-            user logs,<span className="inline-block lg:block"></span> enhancing
-            user personalization and experience.
+            closingbrackets enables context-based search and recommendations
+            without user logs,<span className="inline-block lg:block"></span>{" "}
+            enhancing user personalization and experience.
           </p>
         </div>
       </div>
@@ -268,8 +263,6 @@ export default function page() {
         </div>
       </div>
       <FAQAccordion />
-      <FooterTop />
-      <Footer />
     </div>
   );
 }

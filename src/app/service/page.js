@@ -1,17 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import Header from "../components/Header";
-import FooterTop from "../components/FooterTop";
-import Footer from "../components/Footer";
-import Percentage from "../components/Percentage";
-
 export default function page() {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage/>
-
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -52,11 +44,11 @@ export default function page() {
                     Revolutionizing Hotel Booking
                   </h3>
                   <p className="mb-6 w-full md:max-w-[534px] text-base text-w-100">
-                    closingbrackets utilizes advanced AI and data processing solutions
-                    to instantly find the lowest prices among 3.16 million
-                    hotels worldwide. Operating at minimal costs, closingbrackets
-                    offers additional discounts on top of the lowest real-time
-                    hotel prices.
+                    closingbrackets utilizes advanced AI and data processing
+                    solutions to instantly find the lowest prices among 3.16
+                    million hotels worldwide. Operating at minimal costs,
+                    closingbrackets offers additional discounts on top of the
+                    lowest real-time hotel prices.
                   </p>
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
@@ -79,9 +71,10 @@ export default function page() {
                   </h3>
                   <p className="mb-6 w-full md:max-w-[534px] text-base text-w-100">
                     Users can effortlessly discover movies by &#39;Picking&#39;
-                    from a list of closingbrackets or use &#39;Say&#39; to find movies
-                    based on spoken clues or context. closingbrackets guides users to
-                    explore new movies from a database of over 760,000 titles.
+                    from a list of closingbrackets or use &#39;Say&#39; to find
+                    movies based on spoken clues or context. closingbrackets
+                    guides users to explore new movies from a database of over
+                    760,000 titles.
                   </p>
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
@@ -129,9 +122,10 @@ export default function page() {
                   </h3>
                   <p className="mb-6 w-full md:max-w-[534px] text-base text-w-100">
                     Users can effortlessly discover movies by &#39;Picking&#39;
-                    from a list of closingbrackets or use &#39;Say&#39; to find movies
-                    based on spoken clues or context. closingbrackets guides users to
-                    explore new movies from a database of over 760,000 titles.
+                    from a list of closingbrackets or use &#39;Say&#39; to find
+                    movies based on spoken clues or context. closingbrackets
+                    guides users to explore new movies from a database of over
+                    760,000 titles.
                   </p>
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
@@ -153,9 +147,9 @@ export default function page() {
                     Explore Live Celebrity Personas
                   </h3>
                   <p className="mb-6 w-full md:max-w-[534px] text-base text-w-100">
-                    closingbrackets Star connects communal fandoms that share similar
-                    preferences. With 100k+ user participations per year, it
-                    gives real-time updates based on fan responses—also
+                    closingbrackets Star connects communal fandoms that share
+                    similar preferences. With 100k+ user participations per
+                    year, it gives real-time updates based on fan responses—also
                     reflected in Circle Chart&#39;s &#39;Hot Star Awards&#39;.
                   </p>
                 </div>
@@ -173,8 +167,6 @@ export default function page() {
           </div>
         </div>
       </div>
-      <FooterTop />
-      <Footer />
     </div>
   );
 }

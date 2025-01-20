@@ -1,16 +1,10 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Header from "../components/Header";
-import FooterTop from "../components/FooterTop";
-import Footer from "../components/Footer";
-import Percentage from "../components/Percentage";
 
 export default function page() {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage/>
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-primary-hero  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -52,9 +46,9 @@ export default function page() {
                 Data Supply Chain Management
               </h3>
               <p className="text-base text-w-100">
-                closingbrackets enhances operational efficiency with Data Supply Chain
-                Management (D-SCM), automatically collecting and processing
-                source data.
+                closingbrackets enhances operational efficiency with Data Supply
+                Chain Management (D-SCM), automatically collecting and
+                processing source data.
               </p>
               <Image
                 className="w-full mt-6 lg:mt-12"
@@ -75,9 +69,9 @@ export default function page() {
                 Advanced Contextual Data Processing for Enhanced Decision-Making
               </h3>
               <p className="text-base text-w-100">
-                closingbrackets oversees the maintenance and continuous enhancement of
-                cross-domain language processing models and dialog policies to
-                effectively resolve query ambiguities.
+                closingbrackets oversees the maintenance and continuous
+                enhancement of cross-domain language processing models and
+                dialog policies to effectively resolve query ambiguities.
               </p>
               <Image
                 className="w-full mt-6 lg:mt-12"
@@ -124,8 +118,8 @@ export default function page() {
               </h3>
               <p className="text-base text-w-100">
                 The system generates, manages, and simulates results for
-                service-level &quot;closingbrackets,&quot; utilizing sub-intentions to
-                map contexts like time, place, and occasion.
+                service-level &quot;closingbrackets,&quot; utilizing
+                sub-intentions to map contexts like time, place, and occasion.
               </p>
               <Image
                 className="w-full mt-6 lg:mt-12"
@@ -161,8 +155,6 @@ export default function page() {
           </div>
         </div>
       </div>
-      <FooterTop />
-      <Footer />
     </div>
   );
 }

@@ -1,20 +1,16 @@
-'use client';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
-import Lenis from '@studio-freight/lenis';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Image from 'next/image';
-import VideoSection from './components/VideoSection';
-import Link from 'next/link';
-import UpdateCard from './components/UpdateCard';
-import FAQSection from './components/FAQSection';
-import FooterTop from './components/FooterTop';
-import Footer from './components/Footer';
-import './globals.css';
-import updateCardData from '/src/data/updateCardData.json';
-import Percentage from './components/Percentage';
+"use client";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import Lenis from "@studio-freight/lenis";
+import Hero from "./components/Hero";
+import Image from "next/image";
+import VideoSection from "./components/VideoSection";
+import Link from "next/link";
+import UpdateCard from "./components/UpdateCard";
+import FAQSection from "./components/FAQSection";
+import "./globals.css";
+import updateCardData from "/src/data/updateCardData.json";
 
 export default function Home() {
   useEffect(() => {
@@ -25,7 +21,7 @@ export default function Home() {
     const lenis = new Lenis({
       duration: 1.2, // Duration of the animation (in seconds)
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Easing function
-      orientation: 'vertical',
+      orientation: "vertical",
       smoothWheel: true, // Enable smooth scrolling for mouse wheel
       smoothTouch: false, // Disable smooth scrolling for touch devices
       touchMultiplier: 2, // Touch sensitivity multiplier
@@ -44,9 +40,7 @@ export default function Home() {
     };
   }, []);
   return (
-    <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage />
-      <Header />
+    <div className="overflow-hidden font-normal">
       <Hero />
       <div className="py-8 overflow-hidden bg-center bg-no-repeat bg-cover lg:py-24 bg-semantic">
         <div className="container px-5 mx-auto xl:px-0">
@@ -174,8 +168,8 @@ export default function Home() {
                   </h3>
                   <p className="mb-6 w-full md:max-w-[534px] text-base text-w-100">
                     Founded in 2016 by experienced data scientists, engineers,
-                    and consultants, closingbrackets AI is dedicated to maximizing the
-                    business potential of data and AI.
+                    and consultants, closingbrackets AI is dedicated to
+                    maximizing the business potential of data and AI.
                   </p>
                   <Link href="/team" legacyBehavior>
                     <a className="flex flex-row items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full border-tropical-indigo bg-gd-secondary text-w-900">
@@ -210,9 +204,9 @@ export default function Home() {
                     </span>
                   </h3>
                   <p className="mb-6 w-full md:max-w-[534px] text-base text-w-100">
-                    closingbrackets AI possesses an extensive intellectual property
-                    portfolio in AI technology, comprising 32 granted patents
-                    and 88 patent applications spanning the globe.
+                    closingbrackets AI possesses an extensive intellectual
+                    property portfolio in AI technology, comprising 32 granted
+                    patents and 88 patent applications spanning the globe.
                   </p>
                   <Link href="/patent" legacyBehavior>
                     <a className="flex flex-row items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full border-tropical-indigo bg-gd-secondary text-w-900">
@@ -270,8 +264,6 @@ export default function Home() {
         </div>
       </div>
       <FAQSection />
-      <FooterTop />
-      <Footer />
     </div>
   );
 }

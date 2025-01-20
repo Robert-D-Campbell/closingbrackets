@@ -1,16 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Header from "../components/Header";
-import FooterTop from "../components/FooterTop";
-import Footer from "../components/Footer";
 import customCardData from "/src/data/customCardData.json";
 import CustomCard from "../components/CustomCard";
-import Percentage from "../components/Percentage";
+
 export default function page() {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage/>
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-secondary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -104,9 +99,9 @@ export default function page() {
                 The Solution
               </h3>
               <p data-aos="fade-up" className="mb-6 text-base text-w-100">
-                closingbrackets AI leveraged advanced NLP, ML, and AI algorithms to
-                develop a dynamic travel guide, powering the unique travel app,
-                My Bucketlist. The app aggregates over 100 million travel
+                closingbrackets AI leveraged advanced NLP, ML, and AI algorithms
+                to develop a dynamic travel guide, powering the unique travel
+                app, My Bucketlist. The app aggregates over 100 million travel
                 recommendations for 17,000+ cities globally, enhancing travel
                 choices and market diversity.
               </p>
@@ -128,25 +123,25 @@ export default function page() {
                 </div>
               </div>
               <p data-aos="fade-up" className="mb-6 text-base text-w-100">
-                closingbrackets enables city exploration recommendations, detailed
-                curation for extensive discovery, and comprehensive travel
-                information and reviews. With a simple click, users can
+                closingbrackets enables city exploration recommendations,
+                detailed curation for extensive discovery, and comprehensive
+                travel information and reviews. With a simple click, users can
                 seamlessly navigate to Booking.com for hotel reservations at the
-                lowest available rates. Thanks to closingbrackets AI&#39;s AI-driven
-                automation, Booking.com introduced a 15% cash-back offer,
-                leveraging operational savings to benefit its users.
+                lowest available rates. Thanks to closingbrackets AI&#39;s
+                AI-driven automation, Booking.com introduced a 15% cash-back
+                offer, leveraging operational savings to benefit its users.
               </p>
               <h3 data-aos="fade-up" className="mb-4 text-xl text-w-500">
                 The Result
               </h3>
               <p data-aos="fade-up" className="mb-6 text-base text-w-100">
-                closingbrackets created a unique travel experience for My Bucketlist
-                users powered by AI. The app recorded over 500K downloads in
-                just the first month of its launch and 1M+ downloads today,
-                thanks to unprecedented travel information and discounts it
-                offers. The app is fully automated, which means it continues to
-                bring profits to closingbrackets AI and Booking.com with very little
-                maintenance required.
+                closingbrackets created a unique travel experience for My
+                Bucketlist users powered by AI. The app recorded over 500K
+                downloads in just the first month of its launch and 1M+
+                downloads today, thanks to unprecedented travel information and
+                discounts it offers. The app is fully automated, which means it
+                continues to bring profits to closingbrackets AI and Booking.com
+                with very little maintenance required.
               </p>
               <div className="grid grid-cols-1 gap-6 mb-6 sm:grid-cols-2">
                 <div
@@ -177,11 +172,11 @@ export default function page() {
                 </div>
               </div>
               <p data-aos="fade-up" className="text-base text-w-100">
-                My Bucketlist helped to build an early use case of AI closingbrackets
-                and establish a high profile in the travel industry. The
-                partnership with Booking.com also facilitated additional
-                partnerships with global OTAs such as Hotels Combined to build
-                an AI-powered hotel booking app, Staypia.
+                My Bucketlist helped to build an early use case of AI
+                closingbrackets and establish a high profile in the travel
+                industry. The partnership with Booking.com also facilitated
+                additional partnerships with global OTAs such as Hotels Combined
+                to build an AI-powered hotel booking app, Staypia.
               </p>
             </div>
             <div
@@ -307,8 +302,6 @@ export default function page() {
           </div>
         </div>
       </div>
-      <FooterTop />
-      <Footer />
     </div>
   );
 }

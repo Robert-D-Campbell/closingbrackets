@@ -1,18 +1,12 @@
-import React from 'react';
-import TeamCard from '../components/TeamCard';
-import Header from '../components/Header';
-import FooterTop from '../components/FooterTop';
-import Footer from '../components/Footer';
-import Image from 'next/image';
-import Link from 'next/link';
-import teamCardData from '/src/data/teamData.json';
-import Percentage from '../components/Percentage';
+import React from "react";
+import TeamCard from "../components/TeamCard";
+import Image from "next/image";
+import Link from "next/link";
+import teamCardData from "/src/data/teamData.json";
 
 const Page = () => {
   return (
     <div className="overflow-hidden font-normal bg-b-900">
-      <Percentage />
-      <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1
@@ -84,8 +78,8 @@ const Page = () => {
                   </h3>
                   <p className="text-base text-w-100">
                     Founded in 2016 by experienced data scientists, engineers,
-                    and consultants, closingbrackets AI is dedicated to maximizing the
-                    business potential of data and AI.
+                    and consultants, closingbrackets AI is dedicated to
+                    maximizing the business potential of data and AI.
                   </p>
                 </div>
               </div>
@@ -415,8 +409,6 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <FooterTop />
-      <Footer />
     </div>
   );
 };
