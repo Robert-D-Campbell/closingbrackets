@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: closingbrackets
+    runtime: static
+    buildCommand: pnpm i; pnpm build
+    staticPublishPath: out
+    pullRequestPreviewsEnabled: true # optional
+    envVars:
+      - key: NODE_ENV
+        value: production
