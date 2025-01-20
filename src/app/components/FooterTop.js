@@ -9,7 +9,7 @@ const FooterTop = () => {
           <div className="flex flex-col items-center justify-center">
             <Image
               data-aos="fade-up"
-              src="/img/brand-logo.svg"
+              src="/brand-logo.svg"
               alt="brand-logo"
               width={120}
               height={120}
@@ -25,8 +25,8 @@ const FooterTop = () => {
               data-aos="fade-up"
               className="mt-4 mb-8 text-base text-center md:text-xl text-w-100"
             >
-              Enhance Your Discoveries Unleash the Power of AI closingbrackets Deep
-              Search
+              Enhance Your Discoveries Unleash the Power of AI closingbrackets
+              Deep Search
             </p>
             <Link
               data-aos="fade-up"
@@ -35,7 +35,7 @@ const FooterTop = () => {
             >
               Get Started Now
               <Image
-                src="/img/icons/arrow-right.svg"
+                src="/arrow-right.svg"
                 alt="arrow"
                 width={24}
                 height={24}

@@ -186,7 +186,7 @@ export default function page() {
               <Image
                 data-aos="fade-up"
                 className="mb-6"
-                src="/img/booking-logo.png"
+                src="/booking-logo.png"
                 alt="booking logo"
                 width={81.08}
                 height={80}

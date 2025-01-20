@@ -14,12 +14,7 @@ export default function page() {
                 href="/"
                 className="flex items-center justify-start gap-2"
               >
-                <Image
-                  width={35.49}
-                  height={32}
-                  src="/img/logo.svg"
-                  alt="logo"
-                />
+                <Image width={35.49} height={32} src="/logo.svg" alt="logo" />
                 <span className="text-xl font-medium text-w-900">
                   closingbrackets
                 </span>
@@ -45,7 +40,7 @@ export default function page() {
                   <Image
                     width={24}
                     height={24}
-                    src="/img/icons/colored-check.svg"
+                    src="/colored-check.svg"
                     alt="check icon"
                   />
                   Personalized recommendations and insights
@@ -54,7 +49,7 @@ export default function page() {
                   <Image
                     width={24}
                     height={24}
-                    src="/img/icons/colored-check.svg"
+                    src="/colored-check.svg"
                     alt="check icon"
                   />
                   Enhance user experience and engagement
@@ -63,7 +58,7 @@ export default function page() {
                   <Image
                     width={24}
                     height={24}
-                    src="/img/icons/colored-check.svg"
+                    src="/colored-check.svg"
                     alt="check icon"
                   />
                   Engineered from your unique data sources
@@ -72,12 +67,7 @@ export default function page() {
               <p className="mb-6 text-base text-w-100">
                 Trusted by Growing Teams
               </p>
-              <Image
-                width={472}
-                height={16}
-                src="/img/brand/group.png"
-                alt="brand"
-              />
+              <Image width={472} height={16} src="/group.png" alt="brand" />
             </div>
             <div
               data-aos="fade-up"
@@ -87,7 +77,7 @@ export default function page() {
                 <Image
                   width={53.24}
                   height={48}
-                  src="/img/sign-logo.svg"
+                  src="/sign-logo.svg"
                   alt="brand logo"
                 />
               </Link>
@@ -101,12 +91,7 @@ export default function page() {
                 href="#"
                 className="flex justify-center items-center gap-2 my-6 py-[14px] px-6 rounded-full border border-b-500 w-full text-w-900"
               >
-                <Image
-                  width={24}
-                  height={24}
-                  src="/img/icons/g.svg"
-                  alt="google icon"
-                />{" "}
+                <Image width={24} height={24} src="/g.svg" alt="google icon" />{" "}
                 Continue with Google
               </a>
               <div className="flex justify-center items-center gap-2 py-[14px] px-6">
@@ -141,7 +126,7 @@ export default function page() {
                   <Image
                     width={24}
                     height={24}
-                    src="/img/icons/arrow-right.svg"
+                    src="/arrow-right.svg"
                     alt="arrow"
                   />
                 </button>

@@ -135,7 +135,7 @@ const GlobalPatentSection = () => {
             Patents 32 &amp; Patent Applications 88 across the world.
           </h3>
           <Image
-            src="/img/patent-graph.png"
+            src="/patent-graph.png"
             alt="patent-graph"
             width={1290}
             height={573}
@@ -184,7 +184,7 @@ const GlobalPatentSection = () => {
                 {card.showIcon !== false && (
                   <div className="p-4 border rounded-full border-tropical-indigo bg-gd-secondary">
                     <Image
-                      src="/img/icons/check-rounded.svg"
+                      src="/check-rounded.svg"
                       alt="check rounded"
                       width={24}
                       height={24}

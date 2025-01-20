@@ -8,13 +8,15 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-between gap-12 lg:flex-row lg:gap-24">
           <div className="flex flex-col justify-start items-start gap-8 lg:gap-[112px]">
             <Link href="/" className="flex items-center justify-start gap-2">
-              <Image src="/img/logo.svg" alt="logo" width={31} height={28} />
-              <span className="text-xl font-medium text-w-900">closingbrackets</span>
+              <Image src="/logo.svg" alt="logo" width={31} height={28} />
+              <span className="text-xl font-medium text-w-900">
+                closingbrackets
+              </span>
             </Link>
             <div className="flex gap-4">
               <Link href="#" className="hover:opacity-80">
                 <Image
-                  src="/img/icons/facebook.svg"
+                  src="/facebook.svg"
                   alt="Facebook icon"
                   width={24}
                   height={24}
@@ -22,23 +24,18 @@ const Footer = () => {
               </Link>
               <Link href="#" className="hover:opacity-80">
                 <Image
-                  src="/img/icons/instagram.svg"
+                  src="/instagram.svg"
                   alt="Instagram icon"
                   width={24}
                   height={24}
                 />
               </Link>
               <Link href="#" className="hover:opacity-80">
-                <Image
-                  src="/img/icons/x.svg"
-                  alt="X icon"
-                  width={24}
-                  height={24}
-                />
+                <Image src="/x.svg" alt="X icon" width={24} height={24} />
               </Link>
               <Link href="#" className="hover:opacity-80">
                 <Image
-                  src="/img/icons/linkedin.svg"
+                  src="/linkedin.svg"
                   alt="LinkedIn icon"
                   width={24}
                   height={24}
@@ -46,7 +43,7 @@ const Footer = () => {
               </Link>
               <Link href="#" className="hover:opacity-80">
                 <Image
-                  src="/img/icons/youtube.svg"
+                  src="/youtube.svg"
                   alt="YouTube icon"
                   width={24}
                   height={24}
@@ -177,8 +174,8 @@ const Footer = () => {
       <div className="container px-5 pb-6 mx-auto xl:px-0 md:py-6">
         <div className="flex flex-col items-center justify-center gap-2 md:flex-row md:justify-between md:gap-8">
           <p className="text-xs text-w-100">
-            Copyright &copy; 2024 <Link href="/">closingbrackets</Link>. All rights
-            reserved
+            Copyright &copy; 2024 <Link href="/">closingbrackets</Link>. All
+            rights reserved
           </p>
           <ul className="flex items-center gap-8 md:justify-end">
             <li className="text-xs transition-all duration-300 text-w-100 hover:text-tropical-indigo">

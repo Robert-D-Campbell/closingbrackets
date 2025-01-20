@@ -71,7 +71,7 @@ const FAQAccordion = () => {
                   <Image
                     width={28}
                     height={28}
-                    src="/img/faq-icon.svg"
+                    src="/faq-icon.svg"
                     alt="icon"
                     className={`transform transition-transform duration-300 ${
                       activeIndex === index ? "rotate-90" : "rotate-0"

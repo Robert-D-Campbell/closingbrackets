@@ -68,7 +68,7 @@ export default function Home() {
                     with precision and speed for unparalleled productivity.
                   </p>
                   <Image
-                    src="/img/revolution-card1.png"
+                    src="/revolution-card1.png"
                     alt="AI Prompt Engine"
                     width={644}
                     height={390}
@@ -88,7 +88,7 @@ export default function Home() {
                     technology.
                   </p>
                   <Image
-                    src="/img/revolution-card2.png"
+                    src="/revolution-card2.png"
                     alt="Smart Search"
                     width={424}
                     height={390}
@@ -111,7 +111,7 @@ export default function Home() {
                     looking for.
                   </p>
                   <Image
-                    src="/img/revolution-card3.png"
+                    src="/revolution-card3.png"
                     alt="AI Guided Suggestions"
                     width={644}
                     height={390}
@@ -131,7 +131,7 @@ export default function Home() {
                     streams and grow your business.
                   </p>
                   <Image
-                    src="/img/revolution-card4.png"
+                    src="/revolution-card4.png"
                     alt="AI Profitization"
                     width={424}
                     height={390}
@@ -175,7 +175,7 @@ export default function Home() {
                     <a className="flex flex-row items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full border-tropical-indigo bg-gd-secondary text-w-900">
                       Meet Our Team
                       <Image
-                        src="/img/icons/arrow-right.svg"
+                        src="/arrow-right.svg"
                         alt="arrow"
                         width={20}
                         height={20}
@@ -185,7 +185,7 @@ export default function Home() {
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    src="/img/prompts1.png"
+                    src="/prompts1.png"
                     alt="prompts-img"
                     className="object-contain rounded-lg"
                     fill
@@ -212,7 +212,7 @@ export default function Home() {
                     <a className="flex flex-row items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full border-tropical-indigo bg-gd-secondary text-w-900">
                       Check Our Patents
                       <Image
-                        src="/img/icons/arrow-right.svg"
+                        src="/arrow-right.svg"
                         alt="arrow"
                         width={20}
                         height={20}
@@ -222,7 +222,7 @@ export default function Home() {
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    src="/img/prompts2.png"
+                    src="/prompts2.png"
                     alt="prompts-img"
                     className="object-contain rounded-lg"
                     fill

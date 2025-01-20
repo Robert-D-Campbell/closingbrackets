@@ -26,7 +26,7 @@ const TeamCard = ({
           <Link href={linkedinUrl} legacyBehavior>
             <a>
               <Image
-                src="/img/icons/linkedin.svg"
+                src="/linkedin.svg"
                 alt="linkedin"
                 width={24}
                 height={24}
@@ -35,12 +35,7 @@ const TeamCard = ({
           </Link>
           <Link href={twitterUrl} legacyBehavior>
             <a>
-              <Image
-                src="/img/icons/x.svg"
-                alt="twitter"
-                width={24}
-                height={24}
-              />
+              <Image src="/x.svg" alt="twitter" width={24} height={24} />
             </a>
           </Link>
         </div>

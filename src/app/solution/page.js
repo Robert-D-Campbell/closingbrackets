@@ -68,7 +68,7 @@ export default function page() {
             className="px-4 pt-4 rounded-lg md:pt-8 lg:pt-16 md:px-8 lg:px-16 bg-gd-tertiary"
           >
             <Image
-              src="/img/specific-problems.jpg"
+              src="/specific-problems.jpg"
               alt="specific-problems"
               width={1162}
               height={576}
@@ -106,7 +106,7 @@ export default function page() {
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    src="/img/diverse1.png"
+                    src="/diverse1.png"
                     alt="diverse"
                     className="object-contain rounded-lg"
                     fill
@@ -131,7 +131,7 @@ export default function page() {
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    src="/img/diverse2.png"
+                    src="/diverse2.png"
                     alt="diverse"
                     className="object-contain rounded-lg"
                     fill
@@ -156,7 +156,7 @@ export default function page() {
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    src="/img/diverse3.png"
+                    src="/diverse3.png"
                     alt="diverse"
                     className="object-contain rounded-lg"
                     fill
@@ -254,7 +254,7 @@ export default function page() {
           </h2>
           <Image
             data-aos="fade-up"
-            src="/img/stepby.png"
+            src="/stepby.png"
             className="w-full"
             alt="Step-by-Step Guide to Integrating closingbrackets"
             width={1920}

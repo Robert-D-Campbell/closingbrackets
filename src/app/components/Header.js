@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useState, useRef, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,8 +43,10 @@ export default function Header() {
         <div className="container px-5 mx-auto xl:px-0">
           <div className="hidden justify-between items-center md:flex">
             <Link href="/" className="flex gap-2 justify-start items-center">
-              <Image width={27} height={24} src="/img/logo.svg" alt="logo" />
-              <span className="text-xl font-medium text-w-900">closingbrackets</span>
+              <Image width={27} height={24} src="/logo.svg" alt="logo" />
+              <span className="text-xl font-medium text-w-900">
+                closingbrackets
+              </span>
             </Link>
             <nav>
               <ul className="flex justify-center items-center md:gap-4 lg:gap-8">
@@ -66,7 +68,7 @@ export default function Header() {
                 </li>
                 <li
                   className="relative group"
-                  onMouseEnter={() => handleMouseEnter('resources')}
+                  onMouseEnter={() => handleMouseEnter("resources")}
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
@@ -80,7 +82,7 @@ export default function Header() {
                       height="16"
                       fill="currentColor"
                       className={`transition-transform duration-300 transform down-svg ${
-                        activeDropdown === 'resources' ? 'rotate-180' : ''
+                        activeDropdown === "resources" ? "rotate-180" : ""
                       }`}
                       viewBox="0 0 16 16"
                     >
@@ -93,9 +95,9 @@ export default function Header() {
 
                   <div
                     className={`absolute left-1/2 transform -translate-x-1/2 mt-9 w-[630px] rounded-lg shadow-lg bg-b-700 border border-b-500 ${
-                      activeDropdown === 'resources' ? 'block' : 'hidden'
+                      activeDropdown === "resources" ? "block" : "hidden"
                     }`}
-                    onMouseEnter={() => handleMouseEnter('resources')}
+                    onMouseEnter={() => handleMouseEnter("resources")}
                     onMouseLeave={handleMouseLeave}
                   >
                     <div className="flex w-full h-full">
@@ -116,7 +118,7 @@ export default function Header() {
                               <Image
                                 width={38}
                                 height={38}
-                                src="/img/blog-menu.svg"
+                                src="/blog-menu.svg"
                                 alt=""
                               />
                             </div>
@@ -138,7 +140,7 @@ export default function Header() {
                               <Image
                                 width={38}
                                 height={38}
-                                src="/img/case-studies-menu.svg"
+                                src="/case-studies-menu.svg"
                                 alt=""
                               />
                             </div>
@@ -160,7 +162,7 @@ export default function Header() {
                               <Image
                                 width={38}
                                 height={38}
-                                src="/img/documentation-menu.svg"
+                                src="/documentation-menu.svg"
                                 alt=""
                               />
                             </div>
@@ -182,7 +184,7 @@ export default function Header() {
                 </li>
                 <li
                   className="relative group"
-                  onMouseEnter={() => handleMouseEnter('company')}
+                  onMouseEnter={() => handleMouseEnter("company")}
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link
@@ -196,7 +198,7 @@ export default function Header() {
                       height="16"
                       fill="currentColor"
                       className={`transition-transform duration-300 transform down-svg ${
-                        activeDropdown === 'company' ? 'rotate-180' : ''
+                        activeDropdown === "company" ? "rotate-180" : ""
                       }`}
                       viewBox="0 0 16 16"
                     >
@@ -209,9 +211,9 @@ export default function Header() {
 
                   <div
                     className={`absolute left-1/2 transform -translate-x-1/2 mt-9 w-[630px] rounded-lg shadow-lg bg-b-700 border border-b-500 ${
-                      activeDropdown === 'company' ? 'block' : 'hidden'
+                      activeDropdown === "company" ? "block" : "hidden"
                     }`}
-                    onMouseEnter={() => handleMouseEnter('company')}
+                    onMouseEnter={() => handleMouseEnter("company")}
                     onMouseLeave={handleMouseLeave}
                   >
                     <div className="flex w-full h-full">
@@ -232,7 +234,7 @@ export default function Header() {
                               <Image
                                 width={38}
                                 height={38}
-                                src="/img/our-story-menu.svg"
+                                src="/our-story-menu.svg"
                                 alt=""
                               />
                             </div>
@@ -254,7 +256,7 @@ export default function Header() {
                               <Image
                                 width={38}
                                 height={38}
-                                src="/img/our-team-menu.svg"
+                                src="/our-team-menu.svg"
                                 alt=""
                               />
                             </div>
@@ -276,7 +278,7 @@ export default function Header() {
                               <Image
                                 width={38}
                                 height={38}
-                                src="/img/our-services-menu.svg"
+                                src="/our-services-menu.svg"
                                 alt=""
                               />
                             </div>
@@ -298,7 +300,7 @@ export default function Header() {
                               <Image
                                 width={38}
                                 height={38}
-                                src="/img/our-patent-menu.svg"
+                                src="/our-patent-menu.svg"
                                 alt=""
                               />
                             </div>
@@ -320,7 +322,7 @@ export default function Header() {
                               <Image
                                 width={38}
                                 height={38}
-                                src="/img/media-kit-menu.svg"
+                                src="/media-kit-menu.svg"
                                 alt=""
                               />
                             </div>
@@ -361,8 +363,10 @@ export default function Header() {
         <div className="overflow-hidden md:hidden">
           <div className="container flex justify-between items-center px-5 mx-auto xl:px-0">
             <Link href="/" className="flex gap-2">
-              <Image width={38} height={38} src="/img/logo.svg" alt="logo" />
-              <span className="text-xl font-medium text-w-900">closingbrackets</span>
+              <Image width={38} height={38} src="/logo.svg" alt="logo" />
+              <span className="text-xl font-medium text-w-900">
+                closingbrackets
+              </span>
             </Link>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -380,7 +384,7 @@ export default function Header() {
 
           <div
             className={`fixed z-[999999] top-0 left-0 flex-col justify-start items-start w-full h-screen p-5 bg-b-600 transition-all duration-300 ${
-              isMenuOpen ? 'flex' : 'hidden'
+              isMenuOpen ? "flex" : "hidden"
             }`}
           >
             <nav>
@@ -405,7 +409,7 @@ export default function Header() {
                   <Link
                     href="#"
                     className="flex gap-1 items-center text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
-                    onClick={() => toggleSubMenu('resources')}
+                    onClick={() => toggleSubMenu("resources")}
                   >
                     resources
                     <svg
@@ -414,7 +418,7 @@ export default function Header() {
                       height="16"
                       fill="currentColor"
                       className={`transition-transform duration-300 transform ${
-                        activeSubMenu === 'resources' ? 'rotate-180' : ''
+                        activeSubMenu === "resources" ? "rotate-180" : ""
                       }`}
                       viewBox="0 0 16 16"
                     >
@@ -427,7 +431,7 @@ export default function Header() {
 
                   <ul
                     className={`flex-col gap-2 mt-2 ${
-                      activeSubMenu === 'resources' ? 'flex' : 'hidden'
+                      activeSubMenu === "resources" ? "flex" : "hidden"
                     }`}
                   >
                     <Link href="blog">
@@ -436,7 +440,7 @@ export default function Header() {
                           <Image
                             width={38}
                             height={38}
-                            src="/img/blog-menu.svg"
+                            src="/blog-menu.svg"
                             alt=""
                           />
                         </div>
@@ -458,7 +462,7 @@ export default function Header() {
                           <Image
                             width={38}
                             height={38}
-                            src="/img/case-studies-menu.svg"
+                            src="/case-studies-menu.svg"
                             alt=""
                           />
                         </div>
@@ -480,7 +484,7 @@ export default function Header() {
                           <Image
                             width={38}
                             height={38}
-                            src="/img/documentation-menu.svg"
+                            src="/documentation-menu.svg"
                             alt=""
                           />
                         </div>
@@ -502,7 +506,7 @@ export default function Header() {
                   <Link
                     href="#"
                     className="flex gap-1 items-center text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
-                    onClick={() => toggleSubMenu('company')}
+                    onClick={() => toggleSubMenu("company")}
                   >
                     company
                     <svg
@@ -511,7 +515,7 @@ export default function Header() {
                       height="16"
                       fill="currentColor"
                       className={`transition-transform duration-300 transform ${
-                        activeSubMenu === 'company' ? 'rotate-180' : ''
+                        activeSubMenu === "company" ? "rotate-180" : ""
                       }`}
                       viewBox="0 0 16 16"
                     >
@@ -523,7 +527,7 @@ export default function Header() {
                   </Link>
                   <ul
                     className={`flex-col gap-2 mt-2 ${
-                      activeSubMenu === 'company' ? 'flex' : 'hidden'
+                      activeSubMenu === "company" ? "flex" : "hidden"
                     }`}
                   >
                     <Link href="story">
@@ -532,7 +536,7 @@ export default function Header() {
                           <Image
                             width={38}
                             height={38}
-                            src="/img/our-story-menu.svg"
+                            src="/our-story-menu.svg"
                             alt=""
                           />
                         </div>
@@ -554,7 +558,7 @@ export default function Header() {
                           <Image
                             width={38}
                             height={38}
-                            src="/img/our-team-menu.svg"
+                            src="/our-team-menu.svg"
                             alt=""
                           />
                         </div>
@@ -576,7 +580,7 @@ export default function Header() {
                           <Image
                             width={38}
                             height={38}
-                            src="/img/our-services-menu.svg"
+                            src="/our-services-menu.svg"
                             alt=""
                           />
                         </div>
@@ -598,7 +602,7 @@ export default function Header() {
                           <Image
                             width={38}
                             height={38}
-                            src="/img/our-patent-menu.svg"
+                            src="/our-patent-menu.svg"
                             alt=""
                           />
                         </div>
@@ -620,7 +624,7 @@ export default function Header() {
                           <Image
                             width={38}
                             height={38}
-                            src="/img/media-kit-menu.svg"
+                            src="/media-kit-menu.svg"
                             alt=""
                           />
                         </div>

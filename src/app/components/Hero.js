@@ -42,7 +42,7 @@ const Hero = () => {
             >
               Get Started Now
               <Image
-                src="/img/icons/arrow-right.svg"
+                src="/arrow-right.svg"
                 alt="arrow"
                 width={24}
                 height={24}
@@ -51,7 +51,7 @@ const Hero = () => {
           </Link>
           <Image
             data-aos="fade-up"
-            src="/img/hero-dash.png"
+            src="/hero-dash.png"
             alt="dash-board"
             width={1070}
             height={642}
@@ -68,35 +68,35 @@ const Hero = () => {
           >
             <div className="inline-flex logo_items animate-slides">
               <Image
-                src="/img/brand/1.svg"
+                src="/1.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
                 height={32}
               />
               <Image
-                src="/img/brand/2.svg"
+                src="/2.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
                 height={32}
               />
               <Image
-                src="/img/brand/3.svg"
+                src="/3.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
                 height={32}
               />
               <Image
-                src="/img/brand/4.svg"
+                src="/4.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
                 height={32}
               />
               <Image
-                src="/img/brand/5.svg"
+                src="/5.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
@@ -105,35 +105,35 @@ const Hero = () => {
             </div>
             <div className="inline-flex lg:ml-20 logo_items animate-slides">
               <Image
-                src="/img/brand/1.svg"
+                src="/1.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
                 height={32}
               />
               <Image
-                src="/img/brand/2.svg"
+                src="/2.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
                 height={32}
               />
               <Image
-                src="/img/brand/3.svg"
+                src="/3.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
                 height={32}
               />
               <Image
-                src="/img/brand/4.svg"
+                src="/4.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}
                 height={32}
               />
               <Image
-                src="/img/brand/5.svg"
+                src="/5.svg"
                 alt="brand"
                 className="mx-4"
                 width={190}

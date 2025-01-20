@@ -85,7 +85,7 @@ const Page = () => {
               </div>
               <div className="relative w-full lg:w-[810px] lg:h-[276px]">
                 <Image
-                  src="/img/accom-card.png"
+                  src="/accom-card.png"
                   alt="prompts-img"
                   className="object-contain rounded-lg"
                   fill
@@ -110,12 +110,7 @@ const Page = () => {
               className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
             >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
-                <Image
-                  width={48}
-                  height={48}
-                  src="/img/icons/13.svg"
-                  alt="icon"
-                />
+                <Image width={48} height={48} src="/13.svg" alt="icon" />
               </div>
               <div>
                 <h3 className="mb-4 text-xl font-medium text-w-500">
@@ -129,12 +124,7 @@ const Page = () => {
               className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
             >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
-                <Image
-                  width={48}
-                  height={48}
-                  src="/img/icons/14.svg"
-                  alt="icon"
-                />
+                <Image width={48} height={48} src="/14.svg" alt="icon" />
               </div>
               <div>
                 <h3 className="mb-4 text-xl font-medium text-w-500">
@@ -148,12 +138,7 @@ const Page = () => {
               className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
             >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
-                <Image
-                  width={48}
-                  height={48}
-                  src="/img/icons/15.svg"
-                  alt="icon"
-                />
+                <Image width={48} height={48} src="/15.svg" alt="icon" />
               </div>
               <div>
                 <h3 className="mb-4 text-xl font-medium text-w-500">
@@ -167,12 +152,7 @@ const Page = () => {
               className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
             >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
-                <Image
-                  width={48}
-                  height={48}
-                  src="/img/icons/16.svg"
-                  alt="icon"
-                />
+                <Image width={48} height={48} src="/16.svg" alt="icon" />
               </div>
               <div>
                 <h3 className="mb-4 text-xl font-medium text-w-500">
@@ -186,12 +166,7 @@ const Page = () => {
               className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
             >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
-                <Image
-                  width={48}
-                  height={48}
-                  src="/img/icons/17.svg"
-                  alt="icon"
-                />
+                <Image width={48} height={48} src="/17.svg" alt="icon" />
               </div>
               <div>
                 <h3 className="mb-4 text-xl font-medium text-w-500">
@@ -207,12 +182,7 @@ const Page = () => {
               className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
             >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
-                <Image
-                  width={48}
-                  height={48}
-                  src="/img/icons/18.svg"
-                  alt="icon"
-                />
+                <Image width={48} height={48} src="/18.svg" alt="icon" />
               </div>
               <div>
                 <h3 className="mb-4 text-xl font-medium text-w-500">
@@ -250,7 +220,7 @@ const Page = () => {
                 <a className="flex items-center gap-2 px-6 py-[14px] rounded-full border border-tropical-indigo text-base font-medium bg-transparent hover:bg-tropical-indigo text-w-900 transition-all duration-300">
                   Apply Now
                   <Image
-                    src="/img/icons/arrow-right.svg"
+                    src="/arrow-right.svg"
                     alt="arrow"
                     width={24}
                     height={24}
@@ -272,7 +242,7 @@ const Page = () => {
                 <a className="flex items-center gap-2 px-6 py-[14px] rounded-full border border-tropical-indigo text-base font-medium bg-transparent hover:bg-tropical-indigo text-w-900 transition-all duration-300">
                   Apply Now
                   <Image
-                    src="/img/icons/arrow-right.svg"
+                    src="/arrow-right.svg"
                     alt="arrow"
                     width={24}
                     height={24}
@@ -294,7 +264,7 @@ const Page = () => {
                 <a className="flex items-center gap-2 px-6 py-[14px] rounded-full border border-tropical-indigo text-base font-medium bg-transparent hover:bg-tropical-indigo text-w-900 transition-all duration-300">
                   Apply Now
                   <Image
-                    src="/img/icons/arrow-right.svg"
+                    src="/arrow-right.svg"
                     alt="arrow"
                     width={24}
                     height={24}
@@ -316,7 +286,7 @@ const Page = () => {
                 <a className="flex items-center gap-2 px-6 py-[14px] rounded-full border border-tropical-indigo text-base font-medium bg-transparent hover:bg-tropical-indigo text-w-900 transition-all duration-300">
                   Apply Now
                   <Image
-                    src="/img/icons/arrow-right.svg"
+                    src="/arrow-right.svg"
                     alt="arrow"
                     width={24}
                     height={24}
@@ -341,70 +311,25 @@ const Page = () => {
               data-aos="fade-up"
               className="flex flex-wrap justify-center items-center gap-[30px]"
             >
-              <Image
-                src="/img/brand/6.svg"
-                alt="brand"
-                width={190}
-                height={78}
-              />
-              <Image
-                src="/img/brand/7.svg"
-                alt="brand"
-                width={190}
-                height={92}
-              />
-              <Image
-                src="/img/brand/8.svg"
-                alt="brand"
-                width={190}
-                height={70}
-              />
-              <Image
-                src="/img/brand/9.svg"
-                alt="brand"
-                width={190}
-                height={70}
-              />
+              <Image src="/6.svg" alt="brand" width={190} height={78} />
+              <Image src="/7.svg" alt="brand" width={190} height={92} />
+              <Image src="/8.svg" alt="brand" width={190} height={70} />
+              <Image src="/9.svg" alt="brand" width={190} height={70} />
             </div>
             <div
               data-aos="fade-up"
               className="flex flex-wrap justify-center items-center gap-[30px]"
             >
-              <Image
-                src="/img/brand/10.svg"
-                alt="brand"
-                width={190}
-                height={76}
-              />
-              <Image
-                src="/img/brand/11.svg"
-                alt="brand"
-                width={190}
-                height={76}
-              />
-              <Image
-                src="/img/brand/12.svg"
-                alt="brand"
-                width={190}
-                height={76}
-              />
+              <Image src="/10.svg" alt="brand" width={190} height={76} />
+              <Image src="/11.svg" alt="brand" width={190} height={76} />
+              <Image src="/12.svg" alt="brand" width={190} height={76} />
             </div>
             <div
               data-aos="fade-up"
               className="flex flex-wrap justify-center items-center gap-[30px]"
             >
-              <Image
-                src="/img/brand/13.svg"
-                alt="brand"
-                width={190}
-                height={88}
-              />
-              <Image
-                src="/img/brand/14.svg"
-                alt="brand"
-                width={190}
-                height={84}
-              />
+              <Image src="/13.svg" alt="brand" width={190} height={88} />
+              <Image src="/14.svg" alt="brand" width={190} height={84} />
             </div>
           </div>
         </div>

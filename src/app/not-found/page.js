@@ -22,12 +22,7 @@ export default function page() {
           className="flex justify-center items-center gap-2 px-6 py-[14px] rounded-full text-base font-medium text-w-900 bg-gd-secondary"
         >
           Go to Homepage{" "}
-          <Image
-            width={24}
-            height={24}
-            src="/img/icons/arrow-right.svg"
-            alt="arrow"
-          />
+          <Image width={24} height={24} src="/arrow-right.svg" alt="arrow" />
         </a>
       </div>
     </div>

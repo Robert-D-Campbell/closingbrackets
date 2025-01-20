@@ -48,7 +48,7 @@ export default function FormSection() {
             <ul className="flex flex-col gap-4 text-base font-medium text-w-900">
               <li className="flex items-start justify-start gap-2">
                 <Image
-                  src="/img/icons/colored-check.svg"
+                  src="/colored-check.svg"
                   alt="icon"
                   width={24}
                   height={24}
@@ -57,7 +57,7 @@ export default function FormSection() {
               </li>
               <li className="flex items-start justify-start gap-2">
                 <Image
-                  src="/img/icons/colored-check.svg"
+                  src="/colored-check.svg"
                   alt="icon"
                   width={24}
                   height={24}
@@ -66,7 +66,7 @@ export default function FormSection() {
               </li>
               <li className="flex items-start justify-start gap-2">
                 <Image
-                  src="/img/icons/colored-check.svg"
+                  src="/colored-check.svg"
                   alt="icon"
                   width={24}
                   height={24}
@@ -78,7 +78,7 @@ export default function FormSection() {
               Trusted by Growing Teams
             </span>
             <Image
-              src="/img/brand/group.png"
+              src="/group.png"
               alt="Trusted by Growing Teams"
               width={472}
               height={16}
@@ -201,7 +201,7 @@ export default function FormSection() {
               >
                 contact sales
                 <Image
-                  src="/img/icons/arrow-right.svg"
+                  src="/arrow-right.svg"
                   alt="arrow"
                   width={24}
                   height={24}

@@ -47,7 +47,7 @@ export default function page() {
                 through social validation.
               </p>
               <Image
-                src="/img/core-values1.png"
+                src="/core-values1.png"
                 alt="core-values"
                 width={534}
                 height={366}
@@ -66,7 +66,7 @@ export default function page() {
                 usage, and maintenance are all simplified for ease of use.
               </p>
               <Image
-                src="/img/core-values2.png"
+                src="/core-values2.png"
                 alt="core-values"
                 width={534}
                 height={366}
@@ -85,7 +85,7 @@ export default function page() {
                 that offer invaluable insights for informed decision-making.
               </p>
               <Image
-                src="/img/core-values3.png"
+                src="/core-values3.png"
                 alt="core-values"
                 width={534}
                 height={366}
@@ -104,7 +104,7 @@ export default function page() {
                 all verticals using open-source social data.
               </p>
               <Image
-                src="/img/core-values4.png"
+                src="/core-values4.png"
                 alt="core-values"
                 width={534}
                 height={366}

@@ -309,7 +309,7 @@ export default function page() {
                   <Image
                     width={20}
                     height={20}
-                    src="/img/icons/arrow-back.svg"
+                    src="/arrow-back.svg"
                     alt="arrow"
                   />
                   Introduction
@@ -323,7 +323,7 @@ export default function page() {
                   <Image
                     width={20}
                     height={20}
-                    src="/img/icons/arrow-right.svg"
+                    src="/arrow-right.svg"
                     alt="arrow"
                   />
                 </a>

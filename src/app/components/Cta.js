@@ -8,7 +8,7 @@ const Cta = () => {
           <div className="flex flex-col items-center justify-center">
             <Image
               data-aos="fade-up"
-              src="/img/brand-logo.svg"
+              src="/brand-logo.svg"
               alt="brand-logo"
               width={120}
               height={120}

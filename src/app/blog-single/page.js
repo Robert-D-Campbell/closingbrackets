@@ -47,7 +47,7 @@ export default function page() {
                 data-aos="fade-up"
                 width={850}
                 height={424}
-                src="/img/blog-single.png"
+                src="/blog-single.png"
                 alt="blog single"
               />
               <h3
@@ -71,7 +71,7 @@ export default function page() {
                 width={850}
                 height={424}
                 className="mt-6 mb-12"
-                src="/img/blog-single.png"
+                src="/blog-single.png"
                 alt="blog single"
               />
               <h3
@@ -95,7 +95,7 @@ export default function page() {
                 data-aos="fade-up"
                 width={850}
                 height={424}
-                src="/img/blog-single.png"
+                src="/blog-single.png"
                 alt="blog single"
               />
               <h3
@@ -179,7 +179,7 @@ export default function page() {
               <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
                 <div className="relative w-full lg:w-[125px] lg:h-[80px]">
                   <Image
-                    src="/img/blog-article1.png"
+                    src="/blog-article1.png"
                     alt="prompts-img"
                     className="object-contain rounded-lg"
                     fill
@@ -201,7 +201,7 @@ export default function page() {
               <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
                 <div className="relative w-full lg:w-[128px] lg:h-[80px]">
                   <Image
-                    src="/img/blog-article2.png"
+                    src="/blog-article2.png"
                     alt="prompts-img"
                     className="object-contain rounded-lg"
                     fill
@@ -221,7 +221,7 @@ export default function page() {
               <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
                 <div className="relative w-full lg:w-[138px] lg:h-[80px]">
                   <Image
-                    src="/img/blog-article3.png"
+                    src="/blog-article3.png"
                     alt="prompts-img"
                     className="object-contain rounded-lg"
                     fill
@@ -410,33 +410,23 @@ export default function page() {
                   <Image
                     width={24}
                     height={24}
-                    src="/img/icons/facebook.svg"
+                    src="/facebook.svg"
                     alt="facebook"
                   />
                 </Link>
                 <Link data-aos="fade-up" href="https://x.com/home?lang=en">
-                  <Image
-                    width={24}
-                    height={24}
-                    src="/img/icons/x.svg"
-                    alt="x"
-                  />
+                  <Image width={24} height={24} src="/x.svg" alt="x" />
                 </Link>
                 <Link data-aos="fade-up" href="https://www.linkedin.com/feed/">
                   <Image
                     width={24}
                     height={24}
-                    src="/img/icons/linkedin.svg"
+                    src="/linkedin.svg"
                     alt="linkedin"
                   />
                 </Link>
                 <Link data-aos="fade-up" href="https://mail.google.com/mail/">
-                  <Image
-                    width={24}
-                    height={24}
-                    src="/img/icons/email.svg"
-                    alt="email"
-                  />
+                  <Image width={24} height={24} src="/email.svg" alt="email" />
                 </Link>
               </div>
             </div>

@@ -39,7 +39,7 @@ export default function Page() {
               className="flex justify-center items-center rounded-lg border border-b-600 w-full h-[350px] md:h-[390px] bg-gd-tertiary"
             >
               <Image
-                src="/img/logo-library1.svg"
+                src="/logo-library1.svg"
                 alt="logo library"
                 width={106}
                 height={96}
@@ -50,7 +50,7 @@ export default function Page() {
               className="flex justify-center items-center rounded-lg border border-b-600 w-full h-[350px] md:h-[390px] bg-w-900"
             >
               <Image
-                src="/img/logo-library2.svg"
+                src="/logo-library2.svg"
                 alt="logo library"
                 width={106}
                 height={96}
@@ -61,7 +61,7 @@ export default function Page() {
               className="flex justify-center items-center rounded-lg border border-b-600 w-full h-[350px] md:h-[390px] bg-b-900"
             >
               <Image
-                src="/img/logo-library3.svg"
+                src="/logo-library3.svg"
                 alt="logo library"
                 width={106}
                 height={96}
@@ -72,7 +72,7 @@ export default function Page() {
               className="flex justify-center items-center rounded-lg border border-b-600 w-full h-[350px] md:h-[390px] bg-gd-tertiary"
             >
               <Image
-                src="/img/logo-library4.svg"
+                src="/logo-library4.svg"
                 alt="logo library"
                 width={256}
                 height={48}
@@ -83,7 +83,7 @@ export default function Page() {
               className="flex justify-center items-center rounded-lg border border-b-600 w-full h-[350px] md:h-[390px] bg-w-900"
             >
               <Image
-                src="/img/logo-library5.svg"
+                src="/logo-library5.svg"
                 alt="logo library"
                 width={256}
                 height={48}
@@ -94,7 +94,7 @@ export default function Page() {
               className="flex justify-center items-center rounded-lg border border-b-600 w-full h-[350px] md:h-[390px] bg-b-900"
             >
               <Image
-                src="/img/logo-library6.svg"
+                src="/logo-library6.svg"
                 alt="logo library"
                 width={256}
                 height={48}

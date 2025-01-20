@@ -54,7 +54,7 @@ export default function page() {
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
-                    src="/img/service-card1.png"
+                    src="/service-card1.png"
                     alt="service"
                     width={534}
                     height={464}
@@ -80,7 +80,7 @@ export default function page() {
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
-                    src="/img/service-card2.png"
+                    src="/service-card2.png"
                     alt="service"
                     width={534}
                     height={464}
@@ -105,7 +105,7 @@ export default function page() {
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
-                    src="/img/service-card3.png"
+                    src="/service-card3.png"
                     alt="service"
                     width={534}
                     height={464}
@@ -131,7 +131,7 @@ export default function page() {
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
-                    src="/img/service-card4.png"
+                    src="/service-card4.png"
                     alt="service"
                     width={534}
                     height={464}
@@ -156,7 +156,7 @@ export default function page() {
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
-                    src="/img/service-card5.png"
+                    src="/service-card5.png"
                     alt="service"
                     width={534}
                     height={464}

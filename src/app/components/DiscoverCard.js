@@ -15,12 +15,7 @@ const DiscoverCard = ({ imageSrc, title, link }) => {
       <Link href={link} legacyBehavior>
         <a className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium transition-all duration-300 bg-transparent border rounded-full border-tropical-indigo text-w-900 hover:bg-tropical-indigo">
           Read Case Study
-          <Image
-            src="/img/icons/arrow-right.svg"
-            alt="arrow"
-            width={20}
-            height={20}
-          />
+          <Image src="/arrow-right.svg" alt="arrow" width={20} height={20} />
         </a>
       </Link>
     </div>

@@ -52,7 +52,7 @@ export default function page() {
               </p>
               <Image
                 className="w-full mt-6 lg:mt-12"
-                src="/img/ng-card1.png"
+                src="/ng-card1.png"
                 alt="ng card"
                 width={424}
                 height={390}
@@ -75,7 +75,7 @@ export default function page() {
               </p>
               <Image
                 className="w-full mt-6 lg:mt-12"
-                src="/img/ng-card2.png"
+                src="/ng-card2.png"
                 alt="ng card"
                 width={644}
                 height={390}
@@ -100,7 +100,7 @@ export default function page() {
               </div>
               <Image
                 className="w-full mt-6 lg:mt-12"
-                src="/img/ng-card3.png"
+                src="/ng-card3.png"
                 alt="ng card"
                 width={573}
                 height={390}
@@ -123,7 +123,7 @@ export default function page() {
               </p>
               <Image
                 className="w-full mt-6 lg:mt-12"
-                src="/img/ng-card4.png"
+                src="/ng-card4.png"
                 alt="ng card"
                 width={644}
                 height={390}
@@ -146,7 +146,7 @@ export default function page() {
               </p>
               <Image
                 className="w-full mt-6 lg:mt-12"
-                src="/img/ng-card5.png"
+                src="/ng-card5.png"
                 alt="ng card"
                 width={424}
                 height={390}

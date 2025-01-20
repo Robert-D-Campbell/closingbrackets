@@ -42,7 +42,7 @@ const VideoSection = () => {
           </h2>
           <div data-aos="fade-up-right" className="relative">
             <Image
-              src="/img/video.png"
+              src="/video.png"
               alt="video image demo"
               width={1290}
               height={640}
